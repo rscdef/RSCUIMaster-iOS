@@ -7,7 +7,25 @@
 //
 
 #import "RSCUIMaster.h"
+#import "RSCUIParser.h"
 
 @implementation RSCUIMaster
+
+- (id)parseLayout:(NSString *)layoutName
+{
+    return nil;
+}
+
+- (id)parseLayout:(NSString *)layoutName withParaser:(id<RSCUIParserDelegate>)parser
+{
+    NSAssert(layoutName, @"the layout name can not be nil.");
+    NSAssert(parser, @"the parser can not be nil.");
+    
+    if (parser) {
+        
+    }
+    
+    return nil;
+}
 
 @end
