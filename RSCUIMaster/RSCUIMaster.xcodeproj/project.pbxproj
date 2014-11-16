@@ -11,13 +11,19 @@
 		E11FE02F1A17540600B2271B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FE02E1A17540600B2271B /* AppDelegate.m */; };
 		E11FE0321A17540600B2271B /* RSCCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FE0311A17540600B2271B /* RSCCategoryController.m */; };
 		E11FE0351A17540600B2271B /* RSCStructureController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FE0341A17540600B2271B /* RSCStructureController.m */; };
-		E11FE0381A17540600B2271B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11FE0361A17540600B2271B /* Main.storyboard */; };
-		E11FE03A1A17540600B2271B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11FE0391A17540600B2271B /* Images.xcassets */; };
-		E11FE03D1A17540600B2271B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11FE03B1A17540600B2271B /* LaunchScreen.xib */; };
 		E11FE0491A17540600B2271B /* RSCUIMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FE0481A17540600B2271B /* RSCUIMasterTests.m */; };
 		E11FE0541A175B3100B2271B /* RSCComponentController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FE0531A175B3100B2271B /* RSCComponentController.m */; };
 		E11FE0571A175B6600B2271B /* RSCPlaygroundController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FE0561A175B6600B2271B /* RSCPlaygroundController.m */; };
 		E11FE05A1A17638700B2271B /* RSCCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FE0591A17638700B2271B /* RSCCategoryTableViewCell.m */; };
+		E167A23F1A189C3B00118DF3 /* RSCStructureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E167A23E1A189C3B00118DF3 /* RSCStructureTableViewCell.m */; };
+		E167A2421A189F5A00118DF3 /* RSCComponentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E167A2411A189F5A00118DF3 /* RSCComponentTableViewCell.m */; };
+		E167A2741A18B24600118DF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11FE0391A17540600B2271B /* Images.xcassets */; };
+		E167A29F1A18B41100118DF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E167A2991A18B41100118DF3 /* InfoPlist.strings */; };
+		E167A2A01A18B41100118DF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E167A29B1A18B41100118DF3 /* Localizable.strings */; };
+		E167A2A31A18B4B900118DF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E167A2A11A18B4B900118DF3 /* LaunchScreen.xib */; };
+		E167A2A41A18B4B900118DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E167A2A21A18B4B900118DF3 /* Main.storyboard */; };
+		E167A2A81A18BBE000118DF3 /* RSCLocalizedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = E167A2A71A18BBE000118DF3 /* RSCLocalizedStrings.m */; };
+		E167A2AB1A18C2B500118DF3 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E167A2AA1A18C2B500118DF3 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +46,7 @@
 		E11FE0311A17540600B2271B /* RSCCategoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCCategoryController.m; sourceTree = "<group>"; };
 		E11FE0331A17540600B2271B /* RSCStructureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCStructureController.h; sourceTree = "<group>"; };
 		E11FE0341A17540600B2271B /* RSCStructureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCStructureController.m; sourceTree = "<group>"; };
-		E11FE0371A17540600B2271B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11FE0391A17540600B2271B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E11FE03C1A17540600B2271B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E11FE0421A17540600B2271B /* RSCUIMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCUIMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11FE0471A17540600B2271B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11FE0481A17540600B2271B /* RSCUIMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCUIMasterTests.m; sourceTree = "<group>"; };
@@ -52,6 +56,21 @@
 		E11FE0561A175B6600B2271B /* RSCPlaygroundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCPlaygroundController.m; sourceTree = "<group>"; };
 		E11FE0581A17638700B2271B /* RSCCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCCategoryTableViewCell.h; sourceTree = "<group>"; };
 		E11FE0591A17638700B2271B /* RSCCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCCategoryTableViewCell.m; sourceTree = "<group>"; };
+		E167A23D1A189C3B00118DF3 /* RSCStructureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCStructureTableViewCell.h; sourceTree = "<group>"; };
+		E167A23E1A189C3B00118DF3 /* RSCStructureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCStructureTableViewCell.m; sourceTree = "<group>"; };
+		E167A2401A189F5A00118DF3 /* RSCComponentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCComponentTableViewCell.h; sourceTree = "<group>"; };
+		E167A2411A189F5A00118DF3 /* RSCComponentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCComponentTableViewCell.m; sourceTree = "<group>"; };
+		E167A2521A18A54100118DF3 /* RSCUIMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSCUIMaster-Prefix.pch"; sourceTree = "<group>"; };
+		E167A29A1A18B41100118DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E167A29C1A18B41100118DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E167A29D1A18B41100118DF3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E167A29E1A18B41100118DF3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E167A2A11A18B4B900118DF3 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E167A2A21A18B4B900118DF3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E167A2A61A18BBE000118DF3 /* RSCLocalizedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSCLocalizedStrings.h; path = autogen/RSCLocalizedStrings.h; sourceTree = SOURCE_ROOT; };
+		E167A2A71A18BBE000118DF3 /* RSCLocalizedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSCLocalizedStrings.m; path = autogen/RSCLocalizedStrings.m; sourceTree = SOURCE_ROOT; };
+		E167A2AA1A18C2B500118DF3 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		E167A2AC1A18C2D000118DF3 /* RSCImageResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RSCImageResources.h; path = AutoGen/RSCImageResources.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +94,7 @@
 		E11FE01D1A17540600B2271B = {
 			isa = PBXGroup;
 			children = (
+				E167A2591A18A97800118DF3 /* Resources */,
 				E11FE0281A17540600B2271B /* RSCUIMaster */,
 				E11FE0451A17540600B2271B /* RSCUIMasterTests */,
 				E11FE0271A17540600B2271B /* Products */,
@@ -95,19 +115,13 @@
 			children = (
 				E11FE02D1A17540600B2271B /* AppDelegate.h */,
 				E11FE02E1A17540600B2271B /* AppDelegate.m */,
-				E11FE0301A17540600B2271B /* RSCCategoryController.h */,
-				E11FE0311A17540600B2271B /* RSCCategoryController.m */,
-				E11FE0581A17638700B2271B /* RSCCategoryTableViewCell.h */,
-				E11FE0591A17638700B2271B /* RSCCategoryTableViewCell.m */,
-				E11FE0331A17540600B2271B /* RSCStructureController.h */,
-				E11FE0341A17540600B2271B /* RSCStructureController.m */,
-				E11FE0521A175B3100B2271B /* RSCComponentController.h */,
-				E11FE0531A175B3100B2271B /* RSCComponentController.m */,
-				E11FE0551A175B6600B2271B /* RSCPlaygroundController.h */,
-				E11FE0561A175B6600B2271B /* RSCPlaygroundController.m */,
-				E11FE0361A17540600B2271B /* Main.storyboard */,
+				E167A2431A18A0C700118DF3 /* Category */,
+				E167A2441A18A0CF00118DF3 /* Structure */,
+				E167A2451A18A0D800118DF3 /* Component */,
+				E167A2461A18A0E100118DF3 /* Playground */,
+				E167A2A21A18B4B900118DF3 /* Main.storyboard */,
 				E11FE0391A17540600B2271B /* Images.xcassets */,
-				E11FE03B1A17540600B2271B /* LaunchScreen.xib */,
+				E167A2A11A18B4B900118DF3 /* LaunchScreen.xib */,
 				E11FE0291A17540600B2271B /* Supporting Files */,
 			);
 			path = RSCUIMaster;
@@ -118,6 +132,7 @@
 			children = (
 				E11FE02A1A17540600B2271B /* Info.plist */,
 				E11FE02B1A17540600B2271B /* main.m */,
+				E167A2521A18A54100118DF3 /* RSCUIMaster-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +154,86 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E167A2431A18A0C700118DF3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E11FE0301A17540600B2271B /* RSCCategoryController.h */,
+				E11FE0311A17540600B2271B /* RSCCategoryController.m */,
+				E11FE0581A17638700B2271B /* RSCCategoryTableViewCell.h */,
+				E11FE0591A17638700B2271B /* RSCCategoryTableViewCell.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		E167A2441A18A0CF00118DF3 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				E11FE0331A17540600B2271B /* RSCStructureController.h */,
+				E11FE0341A17540600B2271B /* RSCStructureController.m */,
+				E167A23D1A189C3B00118DF3 /* RSCStructureTableViewCell.h */,
+				E167A23E1A189C3B00118DF3 /* RSCStructureTableViewCell.m */,
+			);
+			name = Structure;
+			sourceTree = "<group>";
+		};
+		E167A2451A18A0D800118DF3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E11FE0521A175B3100B2271B /* RSCComponentController.h */,
+				E11FE0531A175B3100B2271B /* RSCComponentController.m */,
+				E167A2401A189F5A00118DF3 /* RSCComponentTableViewCell.h */,
+				E167A2411A189F5A00118DF3 /* RSCComponentTableViewCell.m */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		E167A2461A18A0E100118DF3 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				E11FE0551A175B6600B2271B /* RSCPlaygroundController.h */,
+				E11FE0561A175B6600B2271B /* RSCPlaygroundController.m */,
+			);
+			name = Playground;
+			sourceTree = "<group>";
+		};
+		E167A2591A18A97800118DF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E167A2AD1A18C2D600118DF3 /* AutoGen */,
+				E167A2981A18B41100118DF3 /* Strings */,
+				E167A2A91A18C2B500118DF3 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E167A2981A18B41100118DF3 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				E167A2991A18B41100118DF3 /* InfoPlist.strings */,
+				E167A29B1A18B41100118DF3 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		E167A2A91A18C2B500118DF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E167A2AA1A18C2B500118DF3 /* test.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E167A2AD1A18C2D600118DF3 /* AutoGen */ = {
+			isa = PBXGroup;
+			children = (
+				E167A2A61A18BBE000118DF3 /* RSCLocalizedStrings.h */,
+				E167A2A71A18BBE000118DF3 /* RSCLocalizedStrings.m */,
+				E167A2AC1A18C2D000118DF3 /* RSCImageResources.h */,
+			);
+			name = AutoGen;
+			path = Strings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +241,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11FE04C1A17540600B2271B /* Build configuration list for PBXNativeTarget "RSCUIMaster" */;
 			buildPhases = (
+				E167A2A51A18B6CA00118DF3 /* ShellScript */,
 				E11FE0221A17540600B2271B /* Sources */,
 				E11FE0231A17540600B2271B /* Frameworks */,
-				E11FE0241A17540600B2271B /* Resources */,
+				E167A2721A18B23700118DF3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +279,7 @@
 		E11FE01E1A17540600B2271B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RSC;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = UIMaster;
 				TargetAttributes = {
@@ -202,6 +299,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = E11FE01D1A17540600B2271B;
 			productRefGroup = E11FE0271A17540600B2271B /* Products */;
@@ -215,16 +313,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E11FE0241A17540600B2271B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E11FE0381A17540600B2271B /* Main.storyboard in Resources */,
-				E11FE03D1A17540600B2271B /* LaunchScreen.xib in Resources */,
-				E11FE03A1A17540600B2271B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E11FE0401A17540600B2271B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,7 +320,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E167A2721A18B23700118DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E167A2A41A18B4B900118DF3 /* Main.storyboard in Resources */,
+				E167A2A01A18B41100118DF3 /* Localizable.strings in Resources */,
+				E167A29F1A18B41100118DF3 /* InfoPlist.strings in Resources */,
+				E167A2741A18B24600118DF3 /* Images.xcassets in Resources */,
+				E167A2A31A18B4B900118DF3 /* LaunchScreen.xib in Resources */,
+				E167A2AB1A18C2B500118DF3 /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E167A2A51A18B6CA00118DF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Script/runScript.sh\" \"${SRCROOT}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E11FE0221A17540600B2271B /* Sources */ = {
@@ -241,9 +358,12 @@
 			files = (
 				E11FE0351A17540600B2271B /* RSCStructureController.m in Sources */,
 				E11FE02F1A17540600B2271B /* AppDelegate.m in Sources */,
+				E167A2421A189F5A00118DF3 /* RSCComponentTableViewCell.m in Sources */,
+				E167A23F1A189C3B00118DF3 /* RSCStructureTableViewCell.m in Sources */,
 				E11FE0321A17540600B2271B /* RSCCategoryController.m in Sources */,
 				E11FE02C1A17540600B2271B /* main.m in Sources */,
 				E11FE0541A175B3100B2271B /* RSCComponentController.m in Sources */,
+				E167A2A81A18BBE000118DF3 /* RSCLocalizedStrings.m in Sources */,
 				E11FE0571A175B6600B2271B /* RSCPlaygroundController.m in Sources */,
 				E11FE05A1A17638700B2271B /* RSCCategoryTableViewCell.m in Sources */,
 			);
@@ -268,20 +388,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E11FE0361A17540600B2271B /* Main.storyboard */ = {
+		E167A2991A18B41100118DF3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E11FE0371A17540600B2271B /* Base */,
+				E167A29A1A18B41100118DF3 /* Base */,
+				E167A29D1A18B41100118DF3 /* zh-Hans */,
 			);
-			name = Main.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E11FE03B1A17540600B2271B /* LaunchScreen.xib */ = {
+		E167A29B1A18B41100118DF3 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E11FE03C1A17540600B2271B /* Base */,
+				E167A29C1A18B41100118DF3 /* Base */,
+				E167A29E1A18B41100118DF3 /* zh-Hans */,
 			);
-			name = LaunchScreen.xib;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -367,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RSCUIMaster/RSCUIMaster-Prefix.pch";
 				INFOPLIST_FILE = RSCUIMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RSCUIMaster/RSCUIMaster-Prefix.pch";
 				INFOPLIST_FILE = RSCUIMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +560,7 @@
 				E11FE04E1A17540600B2271B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11FE04F1A17540600B2271B /* Build configuration list for PBXNativeTarget "RSCUIMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +569,7 @@
 				E11FE0511A17540600B2271B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

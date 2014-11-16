@@ -1,0 +1,21 @@
+//
+//  RSCUIMaster-Prefix.pch
+//  RSCUIMaster
+//
+//  Created by rscdef@gmail.com on 14/11/16.
+//  Copyright (c) 2014年 UIMaster. All rights reserved.
+//
+
+#ifndef RSCUIMaster_RSCUIMaster_Prefix_pch
+#define RSCUIMaster_RSCUIMaster_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "RSCLocalizedStrings.h"
+
+
+#endif
