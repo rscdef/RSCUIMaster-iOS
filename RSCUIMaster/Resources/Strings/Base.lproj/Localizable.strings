@@ -6,7 +6,26 @@
   Copyright (c) 2014年 UIMaster. All rights reserved.
 */
 
+//tabs
 "category"        = "Category";
 "structure"       = "Structure";
 "component"       = "Component";
 "playground"      = "Playground";
+
+//category
+"reading"         = "Reading";
+"ecommerce"       = "E-Commerce";
+"communication"   = "Communication";
+"social_network"  = "Social Network";
+"finance"         = "Finance";
+"utilities"       = "Utilities";
+
+//structure
+"top_tabs"        = "Top Tabs";
+"bottom_tabs"     = "Bottom Tabs";
+"slide_menu"      = "Slide Menu";
+
+//component
+"introduction"    = "Introduction";
+"account"         = "Account";
+"settings"        = "Settings";

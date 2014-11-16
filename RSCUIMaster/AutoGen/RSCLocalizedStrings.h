@@ -14,11 +14,47 @@ NSString * RSCLocalizedSring(NSString *strKey);
 #define RSCSTR_CATEGORY           RSCLocalizedSring(kRSCStrCategory)
 extern NSString * const kRSCStrCategory;
 
+#define RSCSTR_TOP_TABS           RSCLocalizedSring(kRSCStrTopTabs)
+extern NSString * const kRSCStrTopTabs;
+
+#define RSCSTR_ACCOUNT           RSCLocalizedSring(kRSCStrAccount)
+extern NSString * const kRSCStrAccount;
+
+#define RSCSTR_BOTTOM_TABS           RSCLocalizedSring(kRSCStrBottomTabs)
+extern NSString * const kRSCStrBottomTabs;
+
+#define RSCSTR_FINANCE           RSCLocalizedSring(kRSCStrFinance)
+extern NSString * const kRSCStrFinance;
+
+#define RSCSTR_SLIDE_MENU           RSCLocalizedSring(kRSCStrSlideMenu)
+extern NSString * const kRSCStrSlideMenu;
+
+#define RSCSTR_INTRODUCTION           RSCLocalizedSring(kRSCStrIntroduction)
+extern NSString * const kRSCStrIntroduction;
+
+#define RSCSTR_COMMUNICATION           RSCLocalizedSring(kRSCStrCommunication)
+extern NSString * const kRSCStrCommunication;
+
+#define RSCSTR_SETTINGS           RSCLocalizedSring(kRSCStrSettings)
+extern NSString * const kRSCStrSettings;
+
 #define RSCSTR_COMPONENT           RSCLocalizedSring(kRSCStrComponent)
 extern NSString * const kRSCStrComponent;
 
+#define RSCSTR_UTILITIES           RSCLocalizedSring(kRSCStrUtilities)
+extern NSString * const kRSCStrUtilities;
+
+#define RSCSTR_SOCIAL_NETWORK           RSCLocalizedSring(kRSCStrSocialNetwork)
+extern NSString * const kRSCStrSocialNetwork;
+
 #define RSCSTR_PLAYGROUND           RSCLocalizedSring(kRSCStrPlayground)
 extern NSString * const kRSCStrPlayground;
+
+#define RSCSTR_READING           RSCLocalizedSring(kRSCStrReading)
+extern NSString * const kRSCStrReading;
+
+#define RSCSTR_ECOMMERCE           RSCLocalizedSring(kRSCStrEcommerce)
+extern NSString * const kRSCStrEcommerce;
 
 #define RSCSTR_STRUCTURE           RSCLocalizedSring(kRSCStrStructure)
 extern NSString * const kRSCStrStructure;

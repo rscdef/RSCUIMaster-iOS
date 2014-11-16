@@ -31,6 +31,18 @@ NSString* RSCLocalizedSring(NSString *strKey) {
 
 
 NSString * const kRSCStrCategory      = @"category";
+NSString * const kRSCStrTopTabs      = @"top_tabs";
+NSString * const kRSCStrAccount      = @"account";
+NSString * const kRSCStrBottomTabs      = @"bottom_tabs";
+NSString * const kRSCStrFinance      = @"finance";
+NSString * const kRSCStrSlideMenu      = @"slide_menu";
+NSString * const kRSCStrIntroduction      = @"introduction";
+NSString * const kRSCStrCommunication      = @"communication";
+NSString * const kRSCStrSettings      = @"settings";
 NSString * const kRSCStrComponent      = @"component";
+NSString * const kRSCStrUtilities      = @"utilities";
+NSString * const kRSCStrSocialNetwork      = @"social_network";
 NSString * const kRSCStrPlayground      = @"playground";
+NSString * const kRSCStrReading      = @"reading";
+NSString * const kRSCStrEcommerce      = @"ecommerce";
 NSString * const kRSCStrStructure      = @"structure";

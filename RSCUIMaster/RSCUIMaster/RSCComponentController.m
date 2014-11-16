@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Component";
+    self.title = RSCLocalizedSring(RSCSTR_COMPONENT);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -48,11 +48,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     RSCComponentTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ComponentCell" forIndexPath:indexPath];
     if (indexPath.row == 0) {
-        cell.titleLabel.text = @"User Guide";
+        cell.titleLabel.text = RSCLocalizedSring(RSCSTR_INTRODUCTION);
     } else if (indexPath.row == 1) {
-        cell.titleLabel.text = @"Login & Register";
-    } else if (indexPath.row == 1) {
-        cell.titleLabel.text = @"Settings";
+        cell.titleLabel.text = RSCLocalizedSring(RSCSTR_ACCOUNT);
+    } else if (indexPath.row == 2) {
+        cell.titleLabel.text = RSCLocalizedSring(RSCSTR_SETTINGS);
     }
     
     return cell;

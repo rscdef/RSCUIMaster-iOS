@@ -6,7 +6,26 @@
   Copyright (c) 2014年 UIMaster. All rights reserved.
 */
 
+//tabs
 "category"        = "类别";
 "structure"       = "结构";
 "component"       = "组件";
 "playground"      = "组装";
+
+//category
+"reading"         = "阅读";
+"ecommerce"       = "电商";
+"communication"   = "通讯";
+"social_network"  = "社交";
+"finance"         = "财务";
+"utilities"       = "工具";
+
+//structure
+"top_tabs"        = "上标签式";
+"bottom_tabs"     = "下标签式";
+"slide_menu"      = "侧滑菜单式";
+
+//component
+"introduction"    = "介绍";
+"account"         = "账户";
+"settings"        = "设置";

@@ -19,11 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"Localizable" ofType:@"strings"];
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"first" ofType:@"pdf"];
-//    NSLog(@"path:%@",path);
-    NSLog(@"%@",[NSLocale preferredLanguages]);
     self.title = RSCLocalizedSring(RSCSTR_CATEGORY);
 }
 
@@ -41,21 +36,26 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 4;
+    return 6;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
      RSCCategoryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CategoryCell" forIndexPath:indexPath];
      if (indexPath.row == 0) {
-         cell.titleLabel.text = @"Reading";
+         cell.titleLabel.text = RSCLocalizedSring(RSCSTR_READING);
      } else if (indexPath.row == 1) {
-         cell.titleLabel.text = @"E-Commerce";
+         cell.titleLabel.text = RSCLocalizedSring(RSCSTR_ECOMMERCE);
      } else if (indexPath.row == 2) {
-         cell.titleLabel.text = @"Communication";
+         cell.titleLabel.text = RSCLocalizedSring(RSCSTR_COMMUNICATION);
      } else if (indexPath.row == 3) {
-         cell.titleLabel.text = @"Utilities";
+         cell.titleLabel.text = RSCLocalizedSring(RSCSTR_SOCIAL_NETWORK);
+     } else if (indexPath.row == 4) {
+         cell.titleLabel.text = RSCLocalizedSring(RSCSTR_FINANCE);
+     } else if (indexPath.row == 5) {
+         cell.titleLabel.text = RSCLocalizedSring(RSCSTR_UTILITIES);
      }
+    
      
      return cell;
 }
